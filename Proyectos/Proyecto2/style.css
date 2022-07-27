@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+ 
+
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+
+.header{
+background: powderblue;
+font-size: 2rem;
+display: inline-block;
+position: absolute;
+width: 100vw;
+height: 15vh;
+
+}
+.nav{
+  width: 95vw;
+  height: 13vw;
+}
+.ul{
+   
+  list-style-type: none;
+  
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  
+}
+.li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  
+}
+img{
+  padding-left:2vw ;
+  padding-top:2vw ;
+  width: 13vh;
+ 
+}
+
+
+
